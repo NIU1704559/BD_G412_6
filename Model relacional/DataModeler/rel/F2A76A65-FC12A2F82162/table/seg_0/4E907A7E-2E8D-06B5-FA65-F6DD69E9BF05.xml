@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E907A7E-2E8D-06B5-FA65-F6DD69E9BF05" name="Ingrès">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>75DBB97A-37D7-F5DC-6AC3-8CDE5935096A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<ordsAlias>ingres</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DataHoraInici" id="360026B3-3597-8D40-B20D-659D909C6683">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>BFA66281-ABBB-3593-4DED-51105AE46B55</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pes" id="2B40C00C-BF21-2A02-ED86-AF1724CCF725">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>6DA2F754-AA56-16BA-501C-36297842939A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Box" id="165ADEB5-E525-2F8B-4DF8-8C889EA67979">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>F474DE19-8DF1-CA8D-7F02-5D1F8499AD49</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pacient_DNI" id="E2B0FA86-FD24-345F-2299-22A349EE2BEC">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>42D66132-7ABF-D112-A5FC-B6F4303FB6E2</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAA2FD01-7711-4D30-9AC8-1E047AC79329" referredColumn="08523086-48A3-996A-77DA-4D96AFE76BDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37B8AA18-8A06-D91F-C1B1-205BF36929E6" name="Ingrès_PK">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>E5AE0900-80FD-75D9-A4B5-EB9E0294A0AE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="360026B3-3597-8D40-B20D-659D909C6683"/>
+<colUsage columnID="E2B0FA86-FD24-345F-2299-22A349EE2BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36A963EA-7C33-C2C1-04E3-EA2C5D141DFD" name="Ingrès_Pacient_FK">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>B3DE96E8-273D-0975-7AE3-9897F962A5C7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B0FA86-FD24-345F-2299-22A349EE2BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

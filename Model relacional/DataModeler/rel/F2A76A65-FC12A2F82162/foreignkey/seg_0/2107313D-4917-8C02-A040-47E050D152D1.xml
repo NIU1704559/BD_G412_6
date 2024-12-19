@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2107313D-4917-8C02-A040-47E050D152D1" containerWithKeyObject="7640EAC5-AACA-0F8E-B8F9-4079A88EF9E1" localFKIndex="7EB2D1FC-2C5A-5DCC-5C87-411CCE32465A" name="Conté_Cicle_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-12-19 17:45:27 UTC</createdTime>
+<generatorID>AE0910BC-1637-5F9E-AB3B-728C30E25015</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Cicle</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B0E298A-5D23-C4BB-220E-A9AFC1EB4417</referredTableID>
+<keyObject>138FBC1E-33EA-A168-3EF3-833DD82459DE</keyObject>
+<referredKeyID>138FBC1E-33EA-A168-3EF3-833DD82459DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>#Cicle,Ritme,Protocol_Codi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A93BACB-C49A-AC9C-E1AF-2FB6CD0B4A19" name="Cicle">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:50:49 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="#Cicle" id="1D103BFA-97B5-216A-1712-47D336C2D32A">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:50:52 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ritme" id="04888486-03D4-A983-FF76-58FAD51B4891">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:51:25 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dosis" id="569A0135-B701-6BDD-7920-79AFE4E6DFFF">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:51:37 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fàrmac" id="710D0179-4D38-FB77-34E6-1F8A8EEBCBF6">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:51:46 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descàrraga" id="FF3E32FB-5ED1-A805-B1E1-A5E8BEF728E3">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:51:59 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nom" id="4E2EFAE1-02A3-3AD4-98C8-721B010EEFA0">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:40 UTC</createdTime>
+<generatorID>BEDFC26F-8ADD-2533-D930-0D871ACAC028</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<referedAttribute>23D75289-3F91-5FCA-5725-2C2E7BBF6CFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE0910BC-1637-5F9E-AB3B-728C30E25015" name="Cicle PK">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:51:23 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D103BFA-97B5-216A-1712-47D336C2D32A</attributeRef>
+<attributeRef>4E2EFAE1-02A3-3AD4-98C8-721B010EEFA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

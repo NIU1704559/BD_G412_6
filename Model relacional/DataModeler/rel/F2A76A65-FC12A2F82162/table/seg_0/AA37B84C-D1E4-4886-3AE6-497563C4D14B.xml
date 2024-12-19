@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA37B84C-D1E4-4886-3AE6-497563C4D14B" name="Atén">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<ordsAlias>aten</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ingrès_DataHoraInici" id="05A4D549-0155-98C9-1907-2209A4F63BB5">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="172E8B02-5C2D-834C-E086-87FDE4E793DA" referredColumn="360026B3-3597-8D40-B20D-659D909C6683"/>
+</associations>
+</Column>
+<Column name="Ingrès_DNI" id="8BE2C26B-439C-2019-ED22-CEF549B460A2">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="172E8B02-5C2D-834C-E086-87FDE4E793DA" referredColumn="E2B0FA86-FD24-345F-2299-22A349EE2BEC"/>
+</associations>
+</Column>
+<Column name="Personal_DNI" id="B9672F7A-B96B-F429-F710-225A96BD15F7">
+<createdBy>user</createdBy>
+<createdTime>2024-12-19 18:38:28 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EA76E00-74CB-F164-F2C5-77DB5C899076" referredColumn="000362E2-A35E-8456-3CC0-0AA4FBAD720E"/>
+</associations>
+</Column>
+<Column name="Rol_assignat" id="C658EAFB-FBD8-D98D-FE89-C8AD17E68FEE">
+<createdBy>user</createdBy>
+<createdTime>2024-12-19 18:15:22 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A6E8066-7160-9E53-9FC1-5155AA203FE4" name="Atén_PK">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05A4D549-0155-98C9-1907-2209A4F63BB5"/>
+<colUsage columnID="8BE2C26B-439C-2019-ED22-CEF549B460A2"/>
+<colUsage columnID="B9672F7A-B96B-F429-F710-225A96BD15F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCD85959-DFF8-9D11-630C-B4B98B75D20A" name="Atén_Ingrès_FK">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<generatorID>9BFBB50F-A6A8-6FFE-1FAD-19E6944ECCEE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05A4D549-0155-98C9-1907-2209A4F63BB5"/>
+<colUsage columnID="8BE2C26B-439C-2019-ED22-CEF549B460A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E126E8FF-3316-2DD3-32BB-80F294AE99BA" name="Atén_Personal_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-12-19 18:38:28 UTC</createdTime>
+<generatorID>E174F537-C9CD-E7E5-D4A5-2B253B4C1916</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9672F7A-B96B-F429-F710-225A96BD15F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

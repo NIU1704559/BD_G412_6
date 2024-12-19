@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Conté" directorySegmentName="seg_0" id="C42E1FD4-68F7-6A10-BA5B-AC575F15C4A5">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:53:20 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6A93BACB-C49A-AC9C-E1AF-2FB6CD0B4A19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75DBB97A-37D7-F5DC-6AC3-8CDE5935096A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Hora" id="C83DE6C4-84B3-EEAE-0370-CA5CC92A099C">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:53:25 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+<attribute name="Temperatura" id="CB21AEFB-801F-36B2-4A9E-62F5380A9AC7">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:53:34 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Descàrraga_Historial" id="8BC18E75-5525-D2DC-0449-755EB812AD2D">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:53:50 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Dosis_Historial" id="853F77D4-467F-13F1-D272-AF42DD088F39">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:10 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Ritme_Historial" id="D00DA873-EACD-BFAF-78AF-2C9EBE90E4F5">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:54:26 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

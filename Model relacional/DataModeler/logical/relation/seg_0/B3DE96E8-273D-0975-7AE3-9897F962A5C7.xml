@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Va" directorySegmentName="seg_0" id="B3DE96E8-273D-0975-7AE3-9897F962A5C7">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:53:06 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<sourcePk>1C978838-6AFA-F41A-EEA1-B092FE5320BD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C995E68-CD9E-A2D0-02FF-5100F67AA24D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75DBB97A-37D7-F5DC-6AC3-8CDE5935096A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

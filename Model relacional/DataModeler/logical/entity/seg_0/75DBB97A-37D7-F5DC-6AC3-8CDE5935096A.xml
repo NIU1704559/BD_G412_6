@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75DBB97A-37D7-F5DC-6AC3-8CDE5935096A" name="Ingrès">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:49:27 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DataHoraInici" id="BFA66281-ABBB-3593-4DED-51105AE46B55">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:49:33 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pes" id="6DA2F754-AA56-16BA-501C-36297842939A">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:49:48 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Box" id="F474DE19-8DF1-CA8D-7F02-5D1F8499AD49">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:50:03 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="42D66132-7ABF-D112-A5FC-B6F4303FB6E2">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:53:06 UTC</createdTime>
+<generatorID>B3DE96E8-273D-0975-7AE3-9897F962A5C7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<referedAttribute>32672FD4-13E7-8333-9F92-46E2A969AB33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5AE0900-80FD-75D9-A4B5-EB9E0294A0AE" name="Ingrès PK">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:49:46 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFA66281-ABBB-3593-4DED-51105AE46B55</attributeRef>
+<attributeRef>42D66132-7ABF-D112-A5FC-B6F4303FB6E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

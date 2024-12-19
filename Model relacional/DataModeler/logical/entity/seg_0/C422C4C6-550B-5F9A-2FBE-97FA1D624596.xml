@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C422C4C6-550B-5F9A-2FBE-97FA1D624596" name="Protocol">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:52:20 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nom" id="23D75289-3F91-5FCA-5725-2C2E7BBF6CFC">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:52:25 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Interval" id="1817BFD7-9313-02A3-05B5-0025A5A1BB2E">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:52:35 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6077C760-0936-A70F-62C2-355434F5EA41" name="Protocol PK">
+<createdBy>alexc</createdBy>
+<createdTime>2024-12-17 16:52:34 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="F2A76A65-8C70-B160-996A-FC12A2F82162" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23D75289-3F91-5FCA-5725-2C2E7BBF6CFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
