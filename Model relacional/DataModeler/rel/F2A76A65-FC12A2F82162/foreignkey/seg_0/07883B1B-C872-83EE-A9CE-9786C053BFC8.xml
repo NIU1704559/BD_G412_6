@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17B2CB17-27A7-B73C-B1B3-B0F0281BF104" containerWithKeyObject="7640EAC5-AACA-0F8E-B8F9-4079A88EF9E1" localFKIndex="EE36CADA-D9E6-2CB0-4891-7EE4EA66B88A" name="Conté_Ingrès_FK">
-<createdBy>alexc</createdBy>
-<createdTime>2024-12-17 16:54:51 UTC</createdTime>
-<generatorID>C42E1FD4-68F7-6A10-BA5B-AC575F15C4A5</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07883B1B-C872-83EE-A9CE-9786C053BFC8" containerWithKeyObject="12C50AE7-CEEB-C2C7-418E-6841A445B542" localFKIndex="F208BC9C-D44F-5A03-39C3-AAE19A1B5AAB" name="Tractament_Ingrès_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:05:18 UTC</createdTime>
+<generatorID>E5AE0900-80FD-75D9-A4B5-EB9E0294A0AE</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <referredTableLongName>Ingrès</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="#Cicle" id="25BB1932-03E3-2CF6-F585-DB7BA846EC38">
+<Column name="NumCicle" id="25BB1932-03E3-2CF6-F585-DB7BA846EC38">
 <createdBy>alexc</createdBy>
 <createdTime>2024-12-17 16:54:51 UTC</createdTime>
 <generatorID>1D103BFA-97B5-216A-1712-47D336C2D32A</generatorID>
@@ -19,31 +19,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ritme" id="9CD6E303-EA64-61B9-3F8C-8292496337C3">
-<createdBy>alexc</createdBy>
-<createdTime>2024-12-17 16:54:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[Desfibril.able o No Desfibril.lable]]></commentInRDBMS>
-<generatorID>04888486-03D4-A983-FF76-58FAD51B4891</generatorID>
-<ownerDesignName>DataModeler</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Dosis" id="3F65EFB8-1AB7-8A77-9009-830D1A239E0C">
 <createdBy>alexc</createdBy>
 <createdTime>2024-12-17 16:54:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[Unit: mg/kg]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Unit: mg/kg. Si hay 2 medicamentos usados, indicar Dosis1/Dosis2 (p. ej.: 0.05/5)]]></commentInRDBMS>
 <generatorID>569A0135-B701-6BDD-7920-79AFE4E6DFFF</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Fàrmac" id="20D5ED6E-0B10-900D-0F5D-205D6EADD33E">
@@ -63,7 +50,7 @@
 <Column name="Descàrrega" id="BE54BB37-89AD-8361-3694-DFE3F5658EB4">
 <createdBy>alexc</createdBy>
 <createdTime>2024-12-17 16:54:51 UTC</createdTime>
-<comment><![CDATA[Unit: J/kg. Si no hi ha descàrrega, posar 0]]></comment>
+<commentInRDBMS><![CDATA[Unit: J/kg. Si no hi ha descàrrega, posar 0]]></commentInRDBMS>
 <generatorID>FF3E32FB-5ED1-A805-B1E1-A5E8BEF728E3</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,7 +86,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="25BB1932-03E3-2CF6-F585-DB7BA846EC38"/>
-<colUsage columnID="9CD6E303-EA64-61B9-3F8C-8292496337C3"/>
 <colUsage columnID="ADFFBE1E-151A-489F-EA5F-4EB7EC709C2A"/>
 </indexColumnUsage>
 </ind_PK_UK>

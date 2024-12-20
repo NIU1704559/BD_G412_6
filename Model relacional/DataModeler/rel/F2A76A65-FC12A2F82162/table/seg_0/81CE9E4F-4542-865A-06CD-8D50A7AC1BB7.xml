@@ -28,13 +28,14 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Interval" id="ECA5FCD2-053B-5CF5-24C1-64E920905CDC">
 <createdBy>alexc</createdBy>
 <createdTime>2024-12-17 16:54:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unit: min]]></commentInRDBMS>
 <generatorID>1817BFD7-9313-02A3-05B5-0025A5A1BB2E</generatorID>
 <ownerDesignName>DataModeler</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

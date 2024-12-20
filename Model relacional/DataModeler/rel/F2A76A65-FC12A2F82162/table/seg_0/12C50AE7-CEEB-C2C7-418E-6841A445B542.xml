@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12C50AE7-CEEB-C2C7-418E-6841A445B542" name="Tractament">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 15:51:16 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DataHora" id="C50CCFF8-131C-BC9E-7282-F25051A4CF5F">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:02:05 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Temperatura" id="09591470-F19C-73F7-592A-376F7D4C60F6">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:03:06 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dosis_Aplicada" id="F29DCEC9-61AD-CAA2-7746-C12C21D12AE4">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:03:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unit: mg. Derivada del pes multiplicat per la dosis del cicle.]]></commentInRDBMS>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descàrrega_Aplicada" id="B8212469-412B-5F83-7492-9DA91ED47D59">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:04:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unit: J. Derivada del pes multiplicat per la descàrrega del cicle.]]></commentInRDBMS>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ingrès_DataHoraInici" id="1B1C731D-E606-55FE-FFE9-7B9ACBF03497">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:05:18 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07883B1B-C872-83EE-A9CE-9786C053BFC8" referredColumn="360026B3-3597-8D40-B20D-659D909C6683"/>
+</associations>
+</Column>
+<Column name="Ingrès_Pacient_DNI" id="605754BC-5B1D-29EE-1203-2D1E7BE238FC">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:05:18 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07883B1B-C872-83EE-A9CE-9786C053BFC8" referredColumn="E2B0FA86-FD24-345F-2299-22A349EE2BEC"/>
+</associations>
+</Column>
+<Column name="Cicle_NumCicle" id="B69B3CB3-C5C5-E0CC-8FD7-0D1B771BE3FA">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:07:09 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EE0365E-68AF-11C4-4C44-4D4091FEC4AC" referredColumn="25BB1932-03E3-2CF6-F585-DB7BA846EC38"/>
+</associations>
+</Column>
+<Column name="Cicle_Protocol_Codi" id="C64E4346-12B9-8F08-F0C4-249281244E68">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:07:09 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EE0365E-68AF-11C4-4C44-4D4091FEC4AC" referredColumn="ADFFBE1E-151A-489F-EA5F-4EB7EC709C2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B52AD8DB-F743-2020-FB7E-74C84E73007F" name="Tractament_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:07:33 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C64E4346-12B9-8F08-F0C4-249281244E68"/>
+<colUsage columnID="B69B3CB3-C5C5-E0CC-8FD7-0D1B771BE3FA"/>
+<colUsage columnID="605754BC-5B1D-29EE-1203-2D1E7BE238FC"/>
+<colUsage columnID="1B1C731D-E606-55FE-FFE9-7B9ACBF03497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F208BC9C-D44F-5A03-39C3-AAE19A1B5AAB" name="Tractament_Ingrès_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:05:18 UTC</createdTime>
+<generatorID>E5AE0900-80FD-75D9-A4B5-EB9E0294A0AE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B1C731D-E606-55FE-FFE9-7B9ACBF03497"/>
+<colUsage columnID="605754BC-5B1D-29EE-1203-2D1E7BE238FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="467CDB37-80C8-CF9E-1198-6280DC707AC4" name="Tractament_Cicle_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-12-20 16:07:09 UTC</createdTime>
+<generatorID>AE0910BC-1637-5F9E-AB3B-728C30E25015</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B69B3CB3-C5C5-E0CC-8FD7-0D1B771BE3FA"/>
+<colUsage columnID="C64E4346-12B9-8F08-F0C4-249281244E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
